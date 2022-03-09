@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(mensagem) {
+        document.write(mensagem);
+        pulaLinha();
+    }
+
+    var anoInicial = 1500;
+    var geracaoAtual = 2022;
+    var totalGeracoes = (geracaoAtual - anoInicial)/28;
+
+    mostra("O brasil tem " + Math.round(totalGeracoes) + " gerações");
+
+</script>

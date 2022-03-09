@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+
+<script type="text/javascript">
+
+	function pulaLinha() { 
+
+		document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha()
+	}
+
+	var ano = 2022;
+
+	mostra ("Flávio tem " + (ano - 1977) + " anos");
+	//document.write("Flávio tem " + (ano - 1977) + " anos");
+
+
+	mostra("Joaquim tem " + (ano - 1996) + " anos");
+	//document.write("Joaquim tem " + (ano - 1996) + " anos");
+
+
+	ano = 2020; 
+
+	mostra("Barney tem " + (ano - 1976) + " anos");
+	//document.write("Barney tem " + (ano - 1976) + " anos");
+
+
+	mostra("Olá pessoal! <br>")
+
+
+
+	var idadeFlavio = 45;
+	var idadeJoaquim = 26;
+	var idadeBarney = 44;
+
+	var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+	document.write("A média das idades é " + Math.round(media));
+
+	pulaLinha();
+
+	var nome = "Flávio";
+
+	document.write("A idade de " + nome + " é " + idadeFlavio);
+
+</script>
